@@ -1,0 +1,36 @@
+/* .video-card {
+  position: relative; 
+  text-align: center;
+} */
+
+.iframe-container {
+  width: 30%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* .video-title {
+  margin-top: -70px;
+  font-size: 38px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+} */

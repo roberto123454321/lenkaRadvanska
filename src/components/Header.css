@@ -1,0 +1,45 @@
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+    height: 4rem;
+    background: rgba(233, 232, 231, 0.9);
+    z-index: 998;
+  /* background: #681c32; */
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  /* allows header to break or stretch naturally */
+  /* gap: 1rem;  */
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logo a {
+  color: #333333;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;   /* lets links shift when the window shrinks */
+  gap: 1rem;         /* replaces margin-left on links */
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;         /* remove old spacing */
+  font-weight: 300;
+}
