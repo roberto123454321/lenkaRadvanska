@@ -10,8 +10,8 @@ function App() {
       <Header />
       <Hero />
       <div className="page-container">
-        <VideoGalery />
         <MusicGalery />
+        <VideoGalery />
       </div>
     </>
   );

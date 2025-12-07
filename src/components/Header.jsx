@@ -7,8 +7,8 @@ export default function Header() {
         <a href="#hero">Lenka Radvanská</a>
       </div>
       <nav>
-        <a href="#videogalery">Video</a>
         <a href="#music">Hudba</a>
+        <a href="#videogalery">Video</a>
         <a href="#">Foto</a>
         <a href="#">Bio</a>
         <a href="#">Kontakt</a>
