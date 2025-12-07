@@ -11,7 +11,7 @@ export default function Header() {
         <a href="#video">Video</a>
         <a href="#photo">Foto</a>
         <a href="#bio">Bio</a>
-        <a href="#">Kontakt</a>
+        <a href="#contact">Kontakt</a>
       </nav>
     </header>
   );
