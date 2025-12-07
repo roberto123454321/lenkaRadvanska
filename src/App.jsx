@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import MusicGalery from "./components/MusicGalery.jsx";
 import PhotoGalery from "./components/PhotoGalery.jsx";
+import Bio from "./components/Bio.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <MusicGalery />
         <VideoGalery />
         <PhotoGalery />
+        <Bio />
       </div>
     </>
   );

@@ -14,7 +14,7 @@ const videos = [
 
 export default function VideoGalery() {
   return (
-    <div id="videogalery" className="lighter-background">
+    <div id="video" className="lighter-background">
       <h1 className="page-title">Video</h1>
       <div className="video-galery">
         {videos.map((url) => (
