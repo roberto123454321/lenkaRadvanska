@@ -9,7 +9,7 @@ export default function Header() {
       <nav>
         <a href="#music">Hudba</a>
         <a href="#videogalery">Video</a>
-        <a href="#">Foto</a>
+        <a href="#photogalery">Foto</a>
         <a href="#">Bio</a>
         <a href="#">Kontakt</a>
       </nav>

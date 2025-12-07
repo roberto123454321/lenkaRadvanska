@@ -1,5 +1,6 @@
 import VideoCard from "./VideoCard.jsx";
 import "./VideoGalery.css";
+import "../App.css";
 
 const videos = [
   "7afn7GkKzSI",
@@ -13,13 +14,13 @@ const videos = [
 
 export default function VideoGalery() {
   return (
-    <>
+    <div id="videogalery" className="lighter-background">
       <h1 className="page-title">Video</h1>
-      <div id="videogalery" className="video-galery">
+      <div className="video-galery">
         {videos.map((url) => (
           <VideoCard key={url} url={url} />
         ))}
       </div>
-    </>
+    </div>
   );
 }

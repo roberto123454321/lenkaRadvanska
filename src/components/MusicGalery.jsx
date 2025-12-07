@@ -1,4 +1,5 @@
 import "./MusicGalery.css";
+import "../App.css";
 
 const albums = [
   {
@@ -16,7 +17,7 @@ const albums = [
 
 export default function MusicGalery() {
   return (
-    <div className="music" id="music">
+    <div className="darker-background" id="music">
       <h1 className="page-title">Hudba</h1>
       <div id="musicgalery" className="music-galery">
         {albums.map((album) => (

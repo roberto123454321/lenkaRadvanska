@@ -27,3 +27,13 @@ body {
   margin: 4rem;
   font-weight: 500;
 }
+
+.darker-background {
+  background: rgba(233, 232, 231);
+  padding-bottom: 5rem;
+}
+
+.lighter-background {
+  background: #FAFAFA;
+  padding-bottom: 5rem;
+}
