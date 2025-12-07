@@ -1,5 +1,5 @@
-import VideoCard from "./VideoCard.jsx"
-import "./VideoGalery.css"
+import VideoCard from "./VideoCard.jsx";
+import "./VideoGalery.css";
 
 const videos = [
   "7afn7GkKzSI",
@@ -14,12 +14,12 @@ const videos = [
 export default function VideoGalery() {
   return (
     <>
-    <h1 className="page-title">Video</h1>
-    <div id="videogalery" className="video-galery">
+      <h1 className="page-title">Video</h1>
+      <div id="videogalery" className="video-galery">
         {videos.map((url) => (
           <VideoCard key={url} url={url} />
         ))}
-    </div>
+      </div>
     </>
   );
 }

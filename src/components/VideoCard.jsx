@@ -1,6 +1,6 @@
 import "./VideoCard.css";
 
-export default function VideoCard({url}) {
+export default function VideoCard({ url }) {
   return (
     <div className="iframe-container">
       <iframe
@@ -14,4 +14,3 @@ export default function VideoCard({url}) {
     </div>
   );
 }
-

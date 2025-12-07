@@ -1,12 +1,11 @@
 .navbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px; 
-    height: 4rem;
-    background: rgba(233, 232, 231, 0.9);
-    z-index: 998;
-  /* background: #681c32; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 4rem;
+  background: rgba(233, 232, 231, 0.9);
+  z-index: 998;
   padding-top: 0%;
   padding-bottom: 0%;
   padding-left: 1rem;
@@ -14,8 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;  /* allows header to break or stretch naturally */
-  /* gap: 1rem;  */
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -31,8 +29,8 @@
 
 nav {
   display: flex;
-  flex-wrap: wrap;   /* lets links shift when the window shrinks */
-  gap: 1rem;         /* replaces margin-left on links */
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 nav a {
@@ -40,6 +38,6 @@ nav a {
   text-decoration: none;
   font-size: 1rem;
   text-transform: uppercase;
-  margin: 0;         /* remove old spacing */
+  margin: 0;
   font-weight: 300;
 }

@@ -1,11 +1,10 @@
 .hero img {
   width: inherit;
   height: inherit;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .hero {
-  /* border: 1px solid red; */
   width: 100vw;
   height: 100vh;
 }

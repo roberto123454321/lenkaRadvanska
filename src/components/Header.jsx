@@ -1,9 +1,11 @@
-import "./Header.css"
+import "./Header.css";
 
 export default function Header() {
   return (
     <header className="navbar">
-      <div className="logo"><a href="#hero">Lenka Radvanská</a></div>
+      <div className="logo">
+        <a href="#hero">Lenka Radvanská</a>
+      </div>
       <nav>
         <a href="#videogalery">Video</a>
         <a href="#music">Hudba</a>
