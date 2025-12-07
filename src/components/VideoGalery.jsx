@@ -14,7 +14,7 @@ const videos = [
 export default function VideoGalery() {
   return (
     <>
-    <h1 className="page-title">Videogaléria</h1>
+    <h1 className="page-title">Video</h1>
     <div id="videogalery" className="video-galery">
         {videos.map((url) => (
           <VideoCard key={url} url={url} />

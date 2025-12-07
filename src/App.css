@@ -17,10 +17,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80vw;       
-  height: 100%;
-  margin: 0 auto;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   /* padding-left: 10rem;
   padding-right: 10rem; */
   /* padding-bottom: 5rem; */
