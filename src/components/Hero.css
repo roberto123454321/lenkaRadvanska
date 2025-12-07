@@ -4,6 +4,12 @@
   object-fit: cover;
 }
 
+.hero a {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
 .hero {
   width: 100vw;
   height: 100vh;
@@ -18,7 +24,7 @@
   /* transform: translate(-50%, -50%); */
   text-transform: uppercase;
   color: #333333;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 300;
   text-align: center;
   background: rgba(233, 232, 231, 0.4);
@@ -29,7 +35,7 @@
 
 .article h3 {
   /* text-transform: uppercase; */
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 500;
   text-align: center;
   margin: 0.5rem;
@@ -37,4 +43,27 @@
 
 .article p {
   margin-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.dark {
+  color: #333333;
+}
+
+.light {
+  color: #FAFAFA;
+  background: rgba(30, 30, 30, 0.8);
+}
+
+.fade-wrapper {
+  transition: opacity 0.5s ease;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
 }
