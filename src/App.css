@@ -37,3 +37,7 @@ body {
   background: #FAFAFA;
   padding-bottom: 5rem;
 }
+
+.page-container > * {
+  max-width: 100vw;
+}
