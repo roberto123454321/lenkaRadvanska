@@ -22,9 +22,9 @@
   width: 40%;
   /* color:aliceblue; */
   /* transform: translate(-50%, -50%); */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #333333;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   font-weight: 300;
   text-align: center;
   background: rgba(233, 232, 231, 0.4);
@@ -45,6 +45,7 @@
   margin-top: 0rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  font-size: 1.5rem
 }
 
 .dark {
@@ -66,4 +67,29 @@
 
 .fade-out {
   opacity: 0;
+}
+
+@media (max-width: 1000px) {
+
+.article {
+  top: 50%;
+  width: 90%;
+}
+
+.article h3 {
+  font-size: 2rem;
+}
+
+.article p {
+  font-size: 1.5rem
+}
+
+.dark {
+  color: #333333;
+}
+
+.light {
+  color: #FAFAFA;
+  background: rgba(30, 30, 30, 0.8);
+}
 }

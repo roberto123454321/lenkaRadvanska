@@ -9,8 +9,10 @@ export default function VideoGalery() {
       <h1 className="page-title">Foto</h1>
       <div className="photo-galery">
         {photos.map((photo) => (
-          <div className="photo-card">
-            <img key={photo} src={`photos/${photo}.jpg`} />
+          <div key={photo} className="photo-card">
+            <a href={`photos/${photo}.jpg`} >
+            <img src={`photos/${photo}.jpg`} />
+            </a>
           </div>
         ))}
       </div>

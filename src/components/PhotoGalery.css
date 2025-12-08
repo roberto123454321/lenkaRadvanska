@@ -22,3 +22,13 @@
   margin: auto;
   margin-bottom: 5rem;
 }
+
+@media (max-width: 1000px) {
+/* .photo-galery {
+  gap: 1rem;
+} */
+
+.photo-card {
+  width:45%;
+}
+}

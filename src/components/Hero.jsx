@@ -9,7 +9,7 @@ export default function Hero() {
     <a href="#video">
       <div className="article dark">
         <h3>Moja tvorba</h3>
-        <p>Pozrite si niečo z mojej tvorby</p>
+        <p>Objavte videá s piesňami, v ktorých sa žalmové slová menia na jemné, meditáciou naplnené melódie.</p>
       </div>
       <img src={coverImage} />
     </a>,
@@ -17,7 +17,7 @@ export default function Hero() {
     <a href="#music">
       <div className="article dark">
         <h3>CD Žalmy</h3>
-        <p>Vypočujte si moje aktuálne CD</p>
+        <p>vypočuť</p>
       </div>
       <img src={coverImage2} />
     </a>,
@@ -25,7 +25,8 @@ export default function Hero() {
     <>
       <div className="article light">
         <h3>Nové CD</h3>
-        <p>Čoskoro sa môžete tešiť na moje nové CD</p>
+        {/* <p>Čoskoro sa môžete tešiť na moje nové CD</p> */}
+        <p>V tichu vznikajú nové piesne. Teším sa, že ich čoskoro budete môcť počuť.</p>
       </div>
       <img src={coverImage3} />
     </>,
