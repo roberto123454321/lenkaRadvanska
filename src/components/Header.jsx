@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="navbar">
       <div className="logo">
-        <a href="#">Lenka Radvanská</a>
+        <a href="#"><img src="fonts/LenkaRadvanska.png" /></a>
       </div>
       <nav>
         <a href="#music">Hudba</a>

@@ -17,14 +17,12 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: 600;
+  padding-right: 2rem;
+  height: 80%;         
 }
 
-.logo a {
-  color: #333333;
+.logo img {
+  height: 100%;         
 }
 
 nav {
@@ -40,4 +38,16 @@ nav a {
   text-transform: uppercase;
   margin: 0;
   font-weight: 300;
+}
+
+@media (max-width: 663px) {
+  .navbar {
+    justify-content: center;    
+    padding-bottom: 4rem;
+  }
+  
+  .logo {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
 }
