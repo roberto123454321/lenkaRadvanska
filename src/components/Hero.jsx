@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="article dark">
         <h3>CD Ty rád</h3>
         <p>V júni 2026 vychádza druhé CD s názvom Ty rád.
-        Buďte pri tom!</p>
+        Buďte pri tom! <br></br>(Link na donio)</p>
       </div>
       <img src={coverImage2} />
     </>,
