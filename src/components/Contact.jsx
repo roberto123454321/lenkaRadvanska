@@ -5,7 +5,7 @@ export default function Contact() {
     <div id="contact" className="darker-background">
       <h1 className="page-title">Kontakt</h1>
       <div className="contact">
-        <h3>bookinglenkaradvanska@gmail.com</h3>
+        <h3>booking@radvanlenka.sk</h3>
       </div>
     </div>
   );
