@@ -1,17 +1,25 @@
 import "./PhotoGalery.css";
 import "../App.css";
 
-const photos = ["1", "2", "3", "4", "5", "6"];
+const photos = Object.values(
+  import.meta.glob("/public/photos/*.jpg", {
+    eager: true,
+    import: "default",
+  })
+);
 
-export default function VideoGalery() {
+console.log("Photos array:", photos);
+
+
+export default function PhotoGalery() {
   return (
     <div id="photo" className="darker-background">
       <h1 className="page-title">Foto</h1>
       <div className="photo-galery">
-        {photos.map((photo) => (
-          <div key={photo} className="photo-card">
-            <a href={`photos/${photo}.jpg`} >
-            <img src={`photos/${photo}.jpg`} />
+        {photos.map((src, index) => (
+          <div key={index} className="photo-card">
+            <a href={src}>
+              <img src={src} />
             </a>
           </div>
         ))}
@@ -19,3 +27,4 @@ export default function VideoGalery() {
     </div>
   );
 }
+
