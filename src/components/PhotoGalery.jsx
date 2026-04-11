@@ -8,9 +8,6 @@ const photos = Object.values(
   })
 );
 
-console.log("Photos array:", photos);
-
-
 export default function PhotoGalery() {
   return (
     <div id="photo" className="darker-background">
@@ -27,4 +24,3 @@ export default function PhotoGalery() {
     </div>
   );
 }
-
