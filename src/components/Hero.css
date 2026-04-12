@@ -41,6 +41,18 @@
   margin: 0.5rem;
 }
 
+.article title-image {
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+}
+
+.title-image img {
+  height: 7rem;
+  padding: 1rem;
+  padding-bottom: 0rem;
+}
+
 .article p {
   margin-top: 0rem;
   margin-left: 1rem;

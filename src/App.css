@@ -21,14 +21,23 @@ body {
 }
 
 .page-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  margin: 4rem;
+  font-weight: 500;
+}
+
+.page-title-image {
   display: flex;
   justify-content: center;  /* horizontal centering */
   align-items: center;      /* vertical centering */
 }
 
-.page-title img {
-  height: 10rem;
+.page-title-image img {
+  height: 8rem;
   padding: 2rem;
+  padding-bottom: 3rem;
 }
 
 .darker-background {

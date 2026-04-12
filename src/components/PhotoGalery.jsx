@@ -11,11 +11,7 @@ const photos = Object.values(
 export default function PhotoGalery() {
   return (
     <div id="photo" className="darker-background">
-      {/* 
-      TODO  
       <h1 className="page-title">Foto</h1>
-      */}
-      <h1 className="page-title"></h1>
       <div className="photo-galery">
         {photos.map((src, index) => (
           <div key={index} className="photo-card">
