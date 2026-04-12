@@ -18,6 +18,7 @@ npm run dev
 
 Page is running on https://lenkaradvanska-fdcf8.web.app
 
+Init firebase
 ```bash
 npm install -g firebase-tools
 firebase login
@@ -32,6 +33,11 @@ firebase init
 firebase deploy
 ```
 
+Repeated Publish
+```bash
+npm run build
+firebase deploy
+```
 ## TODO:
 
 - update missing fonts - fotky, kontakt
