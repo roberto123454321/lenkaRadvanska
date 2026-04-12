@@ -3,7 +3,7 @@ import "./Bio.css";
 export default function Bio() {
   return (
     <div id="bio" className="lighter-background">
-      <h1 className="page-title">Bio</h1>
+      <div className="page-title"><img src="fonts/OMne.png" /></div>
       <div className="bio">
         <p>
           Lenka Radvanská pochádza z Kendíc, vyštudovala učiteľstvo hudobného
