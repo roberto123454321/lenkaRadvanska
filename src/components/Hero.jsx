@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import coverImage from "../../public/cover1.jpg";
-import coverImage2 from "../../public/cover2.png";
+import coverImage2 from "../../public/cover2.jpg";
 import coverImage3 from "../../public/cover3.jpg";
 import "./Hero.css";
 
@@ -14,14 +14,14 @@ export default function Hero() {
       <img src={coverImage} />
     </a>,
 
-    <>
+    <a href="https://donio.sk/">
       <div className="article dark">
         <h3>CD Ty rád</h3>
         <p>V júni 2026 vychádza druhé CD s názvom Ty rád.
         Buďte pri tom! <br></br>(Link na donio)</p>
       </div>
       <img src={coverImage2} />
-    </>,
+    </a>,
 
     <a href="#music">
       <div className="article dark">
