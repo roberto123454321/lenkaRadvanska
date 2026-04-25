@@ -40,7 +40,6 @@ firebase deploy
 ```
 ## TODO:
 
-- update missing fonts - fotky, kontakt
 - update bio
 - apple music icon and link
 - add section SHOP
