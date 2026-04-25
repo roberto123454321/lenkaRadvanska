@@ -7,7 +7,7 @@ import "./Hero.css";
 export default function Hero() {
   const divs = [
     <a href="#video">
-      <div className="article dark">
+      <div className="article pos1 dark">
         <h3>Moja tvorba</h3>
         {/* <div className="title-image"><img src="fonts/MojaTvorba.png" /></div> */}
         <p>Objavte videá s piesňami, v ktorých sa slová žalmistu menia na osobné výpovede.</p>
@@ -16,10 +16,10 @@ export default function Hero() {
     </a>,
 
     <a href="https://donio.sk/">
-      <div className="article light">
+      <div className="article pos2 dark">
         {/* <div className="title-image"><img src="fonts/CD.png" /></div> */}
         <h3>CD Ty rád</h3>
-        <p>V <strong>júni 2026</strong> vychádza môj druhý album. <br></br>
+        <p>V <strong>júni 2026</strong> vychádza môj druhý album.
         Dala som mu názov <strong>Ty rád</strong> podľa rovnomennej piesne. <br></br>
         (Link na donio)</p>
       </div>
@@ -27,7 +27,7 @@ export default function Hero() {
     </a>,
 
     <a href="#music">
-      <div className="article dark">
+      <div className="article pos3 dark">
         <h3>CD Žalmy</h3>
         <p>Vypočujte si môj debutový hudobný album.</p>
       </div>

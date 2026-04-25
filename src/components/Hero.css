@@ -81,6 +81,20 @@
 .article {
   top: 50%;
   width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pos1 {
+  top: 25%;
+}
+
+.pos2 {
+  top: 19%;
+}
+
+.pos3 {
+  top: 50%;
 }
 
 .article h3 {
