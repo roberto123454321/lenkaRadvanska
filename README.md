@@ -40,7 +40,6 @@ firebase deploy
 ```
 ## TODO:
 
-- update bio
 - apple music icon and link
 - add section SHOP
 - domena as a last step. info

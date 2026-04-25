@@ -13,5 +13,27 @@
 }
 
 .bio p {
-    text-align: justify;
+  text-align: justify;
+}
+
+.bio-links {
+  list-style: none;
+  padding: 0;
+}
+
+.bio-links li {
+  margin-top: 1rem;
+}
+
+.bio-links a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.bio-links a:hover {
+  text-decoration: none;
+}
+
+.bio-links h4 {
+  margin: 0;
 }
