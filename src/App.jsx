@@ -6,6 +6,7 @@ import MusicGalery from "./components/MusicGalery.jsx";
 import PhotoGalery from "./components/PhotoGalery.jsx";
 import Bio from "./components/Bio.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <PhotoGalery />
         <Bio />
         <Contact />
+        <Footer />
       </div>
     </>
   );
