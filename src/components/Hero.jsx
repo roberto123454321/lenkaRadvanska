@@ -8,8 +8,8 @@ export default function Hero() {
   const divs = [
     <a href="#video">
       <div className="article dark">
-        {/* <h3>Moja tvorba</h3> */}
-        <div className="title-image"><img src="fonts/MojaTvorba.png" /></div>
+        <h3>Moja tvorba</h3>
+        {/* <div className="title-image"><img src="fonts/MojaTvorba.png" /></div> */}
         <p>Objavte videá s piesňami, v ktorých sa slová žalmistu menia na osobné výpovede.</p>
       </div>
       <img src={coverImage} />
@@ -17,8 +17,8 @@ export default function Hero() {
 
     <a href="https://donio.sk/">
       <div className="article dark">
-        <div className="title-image"><img src="fonts/CD.png" /></div>
-        {/* <h3>CD Ty rád</h3> */}
+        {/* <div className="title-image"><img src="fonts/CD.png" /></div> */}
+        <h3>CD Ty rád</h3>
         <p>V <strong>júni 2026</strong> vychádza môj druhý album. <br></br>
         Dala som mu názov <strong>Ty rád</strong> podľa rovnomennej piesne. <br></br>
         (Link na donio)</p>
