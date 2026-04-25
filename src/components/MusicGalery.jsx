@@ -17,8 +17,7 @@ const albums = [
 
 export default function MusicGalery() {
   return (
-    <div className="darker-background" id="music">
-      <div className="page-title-image"><img src="fonts/MojaTvorba.png" /></div>
+    <div className="section-padding darker-background" id="music">
       <div id="musicgalery" className="music-galery">
         {albums.map((album) => (
           <div key={album.title} className="album-card">

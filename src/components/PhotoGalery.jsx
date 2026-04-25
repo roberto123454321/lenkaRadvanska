@@ -10,8 +10,7 @@ const photos = Object.values(
 
 export default function PhotoGalery() {
   return (
-    <div id="photo" className="darker-background">
-      <h1 className="page-title">Foto</h1>
+    <div id="photo" className="section-padding darker-background">
       <div className="photo-galery">
         {photos.map((src, index) => (
           <div key={index} className="photo-card">

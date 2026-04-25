@@ -19,7 +19,7 @@
 
 .album-image-wrapper {
   height: 20rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .album-image {
