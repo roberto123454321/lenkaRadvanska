@@ -1,15 +1,19 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-family: "Raleway";
+  src: url("fonts/Raleway-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0;
   background: #fff;
   color: #4a4a4a;
+}
+
+strong {
+  font-weight: 600;
 }
 
 .page-container {
@@ -42,11 +46,14 @@ body {
 
 .darker-background {
   background: rgba(233, 232, 231);
-  padding-bottom: 5rem;
 }
 
 .lighter-background {
   background: #FAFAFA;
+}
+
+.section-padding {
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
