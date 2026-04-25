@@ -42,8 +42,9 @@
 
 .album-icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  gap: 1rem;
 }
 
 .icon {
@@ -51,6 +52,11 @@
   height: 1.5rem;
   opacity: 0.8;
   transition: 0.2s;
+  object-fit: contain;
+}
+
+.icon-apple {
+  transform: translateY(-2px);
 }
 
 .icon:hover {

@@ -5,8 +5,8 @@ const albums = [
   {
     title: "Žalmy",
     img: "/zalmy.png",
-    spotify:
-      "https://open.spotify.com/album/0hL4SavLzJRLXTOBCpPgPP?si=VDfUDORMQrOkNvDvspmykw",
+    spotify: "https://open.spotify.com/album/0hL4SavLzJRLXTOBCpPgPP?si=VDfUDORMQrOkNvDvspmykw",
+    applemusic: "https://music.apple.com/sk/artist/lenka-radvansk%C3%A1/1762076065"
   },
   // {
   //   title: "Žalmy2",
@@ -32,7 +32,12 @@ export default function MusicGalery() {
               <div className="album-content">
                 <h2 className="album-title">{album.title}</h2>
                 <div className="album-icons">
-                  <img src="spotify.svg" className="icon" />
+                  <a href={album.spotify}>
+                    <img src="spotify.svg" className="icon" />
+                  </a>
+                  <a href={album.applemusic}>
+                    <img src="appleMusic.svg" className="icon icon-apple" />
+                  </a>
                 </div>
               </div>
             </a>

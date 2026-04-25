@@ -40,6 +40,5 @@ firebase deploy
 ```
 ## TODO:
 
-- apple music icon and link
 - add section SHOP
 - domena as a last step. info
