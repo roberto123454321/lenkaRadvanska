@@ -16,7 +16,7 @@ export default function Hero() {
     </a>,
 
     <a href="https://donio.sk/">
-      <div className="article dark">
+      <div className="article light">
         {/* <div className="title-image"><img src="fonts/CD.png" /></div> */}
         <h3>CD Ty rád</h3>
         <p>V <strong>júni 2026</strong> vychádza môj druhý album. <br></br>
