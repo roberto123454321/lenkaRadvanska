@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
+  width: 80vw;
+  height: 100%;
+  margin: auto;
 }
 
 .album-card {
