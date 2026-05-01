@@ -10,7 +10,7 @@ export default function Footer() {
         <p>
           Tvorbu nahrávok hudobného diela Ty rád podporil Fond na podporu umenia.
         </p>
-        <br></br>
+        <br/>
       </div>
     </div>
   );

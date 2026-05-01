@@ -49,9 +49,7 @@
 }
 
 .article p {
-  margin-top: 0rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1.5rem;
   font-size: 1.5rem
 }
 
@@ -94,7 +92,7 @@
 }
 
 .pos3 {
-  top: 50%;
+  top: 60%;
 }
 
 .article h3 {
@@ -102,7 +100,7 @@
 }
 
 .article p {
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 .dark {

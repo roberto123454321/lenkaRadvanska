@@ -38,7 +38,3 @@ Repeated Publish
 npm run build
 firebase deploy
 ```
-## TODO:
-
-- add section SHOP
-- domena as a last step. info
