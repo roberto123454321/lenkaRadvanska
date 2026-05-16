@@ -29,7 +29,6 @@ export default function PhotoGalery() {
                 <img
                   src={isSmallScreen ? lq : hq}
                   alt={baseName}
-                  loading="lazy"
                 />
               </a>
             </div>
