@@ -1,10 +1,12 @@
 import "./PhotoGalery.css";
 import "../App.css";
 
-const photos = Object.values(
+const isSmallScreen = window.innerWidth < 663;
+
+// load only HQ (.jpg)
+const photoPaths = Object.keys(
   import.meta.glob("/public/photos/*.jpg", {
     eager: true,
-    import: "default",
   })
 );
 
@@ -12,13 +14,25 @@ export default function PhotoGalery() {
   return (
     <div id="photo" className="section-padding darker-background">
       <div className="photo-galery">
-        {photos.map((src, index) => (
-          <div key={index} className="photo-card">
-            <a href={src}>
-              <img src={src} />
-            </a>
-          </div>
-        ))}
+        {photoPaths.map((path, index) => {
+          const fileName = path.split("/").pop(); // pic1.jpg
+          const baseName = fileName.replace(".jpg", ""); // pic1
+
+          const hq = `/photos/${baseName}.jpg`;
+          const lq = `/photos/${baseName}lq.jpeg`;
+
+          return (
+            <div key={index} className="photo-card">
+              <a href={hq}>
+                <img
+                  src={isSmallScreen ? lq : hq}
+                  alt={baseName}
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
