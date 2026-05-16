@@ -44,7 +44,10 @@ export default function Hero() {
       setIndex(getNextIndex);
       setFade(true);
 
-      if (reset) resetTimer();
+      if (reset) {
+        clearInterval(intervalRef.current);
+        startTimer();
+      };
     }, 500);
   };
 
