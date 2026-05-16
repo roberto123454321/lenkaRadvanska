@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import coverImage from "../../public/cover1.jpg";
-import coverImage2 from "../../public/cover2.jpg";
-import coverImage3 from "../../public/cover3.jpg";
+import coverImage1 from "/cover1.jpg";
+import coverImage1lq from "/cover1lq.jpeg";
+import coverImage2 from "/cover2.jpg";
+import coverImage2lq from "/cover2lq.jpeg";
+import coverImage3 from "/cover3.jpg";
+import coverImage3lq from "/cover3lq.jpeg";
 import "./Hero.css";
 
 export default function Hero() {
@@ -10,7 +13,10 @@ export default function Hero() {
       <div className="article pos1 dark">
         <p>Objavte videá s&nbsp;piesňami, v&nbsp;ktorých sa slová žalmistu menia na&nbsp;osobné výpovede.</p>
       </div>
-      <img src={coverImage} />
+      <picture>
+        <source srcSet={coverImage1lq} media="(max-width: 663px)" />
+        <img src={coverImage1} />
+      </picture>      
     </a>,
 
     <iframe src="https://donio.sk/widget2/15784"></iframe>,
@@ -19,7 +25,10 @@ export default function Hero() {
       <div className="article pos3 dark">
         <p>Vypočujte si môj debutový hudobný album.</p>
       </div>
-      <img src={coverImage3} />
+      <picture>
+        <source srcSet={coverImage3lq} media="(max-width: 663px)" />
+        <img src={coverImage3} />
+      </picture>     
     </a>,
   ];
 
