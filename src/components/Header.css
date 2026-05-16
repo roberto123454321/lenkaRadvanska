@@ -3,7 +3,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 5rem;
+  height: var(--navbar-height);
   background: rgba(233, 232, 231, 0.9);
   z-index: 998;
   padding-top: 0%;
@@ -43,7 +43,7 @@ nav a {
 @media (max-width: 663px) {
   .navbar {
     justify-content: center;    
-    padding-bottom: 4rem;
+    padding-bottom: var(--navbar-padding);
   }
   
   .logo {

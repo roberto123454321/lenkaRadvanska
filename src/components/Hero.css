@@ -12,7 +12,8 @@
 
 .hero {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - var(--navbar-height));
+  margin-top: var(--navbar-height);
 }
 
 .article {
@@ -38,8 +39,8 @@
 
 .article title-image {
   display: flex;
-  justify-content: center;  /* horizontal centering */
-  align-items: center;      /* vertical centering */
+  justify-content: center;
+  align-items: center;  
 }
 
 .title-image img {
@@ -74,41 +75,89 @@
   opacity: 0;
 }
 
-@media (max-width: 1000px) {
-
-.article {
-  top: 50%;
-  width: 90%;
+.dot-container {
+  position: absolute;
+  bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
 }
 
-.pos1 {
-  top: 30%;
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.pos2 {
-  top: 30%;
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
-.pos3 {
-  top: 60%;
+.dot.active {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
 }
 
-.article h3 {
-  font-size: 1.8rem;
+.dark-dots .dot {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-.article p {
-  font-size: 1.2rem;
+.dark-dots .dot:hover {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.dark {
-  color: #333333;
+.dark-dots .dot.active {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-.light {
-  color: #FAFAFA;
-  background: rgba(30, 30, 30, 0.8);
+@media (max-width: 1000px) {
+  .article {
+    top: 50%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .pos1 {
+    top: 33%;
+  }
+
+  .pos2 {
+    top: 33%;
+  }
+
+  .pos3 {
+    top: 33%;
+  }
+
+  .article h3 {
+    font-size: 1.8rem;
+  }
+
+  .article p {
+    font-size: 1.2rem;
+  }
+
+  .dark {
+    color: #333333;
+  }
+
+  .light {
+    color: #FAFAFA;
+    background: rgba(30, 30, 30, 0.8);
+  }
 }
+
+@media (max-width: 663px) {
+  .hero {
+    width: 100vw;
+    height: calc(100vh - var(--navbar-height) - var(--navbar-padding));
+    margin-top: calc(var(--navbar-height) + var(--navbar-padding));
+  }
 }
+
