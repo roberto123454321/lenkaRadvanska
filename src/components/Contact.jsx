@@ -1,5 +1,5 @@
 import "./Contact.css";
-import InstagramIcon from "../../public/instagram.svg";
+import InstagramIcon from "/instagram.svg";
 
 export default function Contact() {
   return (
