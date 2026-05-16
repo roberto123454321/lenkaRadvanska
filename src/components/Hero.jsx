@@ -6,6 +6,7 @@ import coverImage2lq from "/cover2lq.jpeg";
 import coverImage3 from "/cover3.jpg";
 import coverImage3lq from "/cover3lq.jpeg";
 import "./Hero.css";
+import { getBreakpointMobile } from "../Utils.js";
 
 export default function Hero() {
   const divs = [
@@ -14,7 +15,7 @@ export default function Hero() {
         <p>Objavte videá s&nbsp;piesňami, v&nbsp;ktorých sa slová žalmistu menia na&nbsp;osobné výpovede.</p>
       </div>
       <picture>
-        <source srcSet={coverImage1lq} media="(max-width: 663px)" />
+        <source srcSet={coverImage1lq} media={`(max-width: ${getBreakpointMobile()})`} />
         <img src={coverImage1} />
       </picture>      
     </a>,
@@ -26,7 +27,7 @@ export default function Hero() {
         <p>Vypočujte si môj debutový hudobný album.</p>
       </div>
       <picture>
-        <source srcSet={coverImage3lq} media="(max-width: 663px)" />
+        <source srcSet={coverImage3lq} media={`(max-width: ${getBreakpointMobile()})`} />
         <img src={coverImage3} />
       </picture>     
     </a>,

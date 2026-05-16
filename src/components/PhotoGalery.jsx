@@ -1,7 +1,9 @@
 import "./PhotoGalery.css";
 import "../App.css";
+import { getBreakpointMobile } from "../Utils.js";
 
-const isSmallScreen = window.innerWidth < 663;
+
+const isSmallScreen = window.innerWidth < parseInt(getBreakpointMobile());
 
 // load only HQ (.jpg)
 const photoPaths = Object.keys(
