@@ -5,8 +5,8 @@ const albums = [
   {
     title: "Žalmy",
     img: "/zalmy.png",
-    spotify: "https://open.spotify.com/album/0hL4SavLzJRLXTOBCpPgPP?si=VDfUDORMQrOkNvDvspmykw",
-    applemusic: "https://music.apple.com/sk/artist/lenka-radvansk%C3%A1/1762076065"
+    spotify: "https://open.spotify.com/album/079diPsCQFl91F8Kioh2iA?si=9mjRRxNZTni9lJEs3sEjcg",
+    applemusic: "https://music.apple.com/sk/album/%C5%BEalmy/6767605353"
   },
   // {
   //   title: "Žalmy2",
