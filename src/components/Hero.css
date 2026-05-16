@@ -69,44 +69,39 @@
   opacity: 0;
 }
 
-.dot-container {
+.arrow {
   position: absolute;
-  bottom: 25px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
+  opacity: 0.1;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  user-select: none;
   z-index: 10;
 }
 
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  transition: all 0.3s ease;
+.arrow:hover {
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.dot:hover {
-  background-color: rgba(255, 255, 255, 0.7);
+/* Positioning */
+.arrow.left {
+  left: 10px;
 }
 
-.dot.active {
-  background-color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
+.arrow.right {
+  right: 10px;
 }
 
-.dark-dots .dot {
-  background-color: rgba(0, 0, 0, 0.4);
+/* darker version when slide 2 */
+.dark-dots .arrow {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.dark-dots .dot:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.dark-dots .dot.active {
-  background-color: rgba(0, 0, 0, 0.9);
+.dark-dots .arrow:hover {
+  color: rgba(0, 0, 0, 0.85);
 }
 
 @media (max-width: 1000px) {
@@ -118,15 +113,15 @@
   }
 
   .pos1 {
-    top: 33%;
+    top: 50%;
   }
 
   .pos2 {
-    top: 33%;
+    top: 50%;
   }
 
   .pos3 {
-    top: 33%;
+    top: 50%;
   }
 
   .article h3 {

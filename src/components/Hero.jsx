@@ -66,17 +66,29 @@ export default function Hero() {
   <div className={`fade-wrapper ${fade ? "fade-in" : "fade-out"}`}>
       <div id="hero" className="hero">
         {divs[index]}
-        <div className={`dot-container ${index === 1 ? "dark-dots" : ""}`}>  
-          {divs.map((_, i) => (
-            <span
-              key={i}
-              className={`dot ${i === index ? "active" : ""}`}          
-              onClick={() => {
-                goToSlide(() => i, true);
-              }}
-            />
-          ))}
+
+        {/* LEFT arrow */}
+        <div className={index === 1 ? "dark-dots" : ""}>
+          <div
+            className="arrow left"
+            onClick={() =>
+              goToSlide(prev => (prev - 1 + divs.length) % divs.length, true)
+            }
+          >
+            ❮
+          </div>
+
+          {/* RIGHT arrow */}
+          <div
+            className="arrow right"
+            onClick={() =>
+              goToSlide(prev => (prev + 1) % divs.length, true)
+            }
+          >
+            ❯
+          </div>
         </div>
+
       </div>
     </div>
   );
