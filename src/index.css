@@ -16,7 +16,8 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* this var can not be used in media queries :( */
+  /* this var can not be used in media querie condition :(
+     you need to manualy adjust all occurances of this value in code */
   --breakpoint-mobile: 663px;
   --navbar-height: 5rem;
   --navbar-padding: 4rem;

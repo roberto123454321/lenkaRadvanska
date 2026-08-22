@@ -2,7 +2,9 @@ import VideoCard from "./VideoCard.jsx";
 import "./VideoGalery.css";
 import "../App.css";
 
+// youtube video links. e.g. www.youtube.com/embed/N6lYuvPCgpM
 const videos = [
+  "N6lYuvPCgpM",
   "7afn7GkKzSI",
   "YU8bZVCbVeg",
   "CmN4jJCknF4",

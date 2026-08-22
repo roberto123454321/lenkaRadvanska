@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import coverImage1 from "/cover1.jpg";
+import coverImage1 from "/cover1.jpeg";
 import coverImage1lq from "/cover1lq.jpeg";
-import coverImage2 from "/cover2.jpg";
+import coverImage2 from "/cover2.jpeg";
 import coverImage2lq from "/cover2lq.jpeg";
-import coverImage3 from "/cover3.jpg";
+import coverImage3 from "/cover3.jpeg";
 import coverImage3lq from "/cover3lq.jpeg";
 import "./Hero.css";
 import { getBreakpointMobile } from "../Utils.js";
@@ -19,8 +19,6 @@ export default function Hero() {
         <img src={coverImage1} />
       </picture>      
     </a>,
-
-    <iframe src="https://donio.sk/widget2/15784"></iframe>,
 
     <a href="#music">
       <div className="article pos3 dark">
